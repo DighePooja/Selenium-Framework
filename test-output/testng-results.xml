@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-23T00:42:31 IST" name="Default suite" finished-at="2023-06-23T00:42:56 IST" duration-ms="24505">
+    <groups>
+    </groups>
+    <test started-at="2023-06-23T00:42:31 IST" name="Default test" finished-at="2023-06-23T00:42:56 IST" duration-ms="24505">
+      <class name="POM_DDF_TestNG_Utility_BaseClass4.PBLoginTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:POM_DDF_TestNG_Utility_BaseClass4.PBLoginTest@25df00a0]" started-at="2023-06-23T00:42:31 IST" name="OpenBrowser" finished-at="2023-06-23T00:42:40 IST" duration-ms="8803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="LoginToApp()[pri:0, instance:POM_DDF_TestNG_Utility_BaseClass4.PBLoginTest@25df00a0]" started-at="2023-06-23T00:42:40 IST" name="LoginToApp" finished-at="2023-06-23T00:42:45 IST" duration-ms="5078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApp -->
+        <test-method signature="VerifyFullName()[pri:0, instance:POM_DDF_TestNG_Utility_BaseClass4.PBLoginTest@25df00a0]" started-at="2023-06-23T00:42:45 IST" name="VerifyFullName" finished-at="2023-06-23T00:42:52 IST" duration-ms="7214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFullName -->
+        <test-method is-config="true" signature="TakeSSOfFailedTC(org.testng.ITestResult)[pri:0, instance:POM_DDF_TestNG_Utility_BaseClass4.PBLoginTest@25df00a0]" started-at="2023-06-23T00:42:52 IST" name="TakeSSOfFailedTC" finished-at="2023-06-23T00:42:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyFullName status=SUCCESS method=PBLoginTest.VerifyFullName()[pri:0, instance:POM_DDF_TestNG_Utility_BaseClass4.PBLoginTest@25df00a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeSSOfFailedTC -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:POM_DDF_TestNG_Utility_BaseClass4.PBLoginTest@25df00a0]" started-at="2023-06-23T00:42:52 IST" name="CloseBrowser" finished-at="2023-06-23T00:42:56 IST" duration-ms="3314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- POM_DDF_TestNG_Utility_BaseClass4.PBLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
